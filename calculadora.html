@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/calculadora.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Calculadora</title>
+</head>
+
+<body onload="calculadora();" class="fondo">
+    <div>
+        <main>
+            <div class="row tabla">
+                <div class="col informacion">
+                    <p id="total"> </p>
+                    <div class="col digitos">
+                        <button class="numeros" id="porcentaje">%</button>
+                        <button class=" numeros" id="ce">CE</button>
+                        <button class="numeros" id="c">C</button>
+                        <button class="numeros" id="reset">
+                            <-</button> </div> <div class="col digitos">
+                                <button class="numeros" id="x_1">¹/x</button>
+                                <button class=" numeros" id="x_2">x²</button>
+                                <button class="numeros" id="raiz">√</button>
+                                <button class="numeros" id="division">÷</button>
+                    </div>
+                    <div class="col digitos">
+                        <button class="numeros" id="siete"><strong>7</strong></button>
+                        <button class=" numeros" id="ocho"><strong>8</strong></button>
+                        <button class="numeros" id="nueve"><strong>9</strong></button>
+                        <button class="numeros" id="multiplicacion">x</button>
+                    </div>
+                    <div class="col digitos">
+                        <button class="numeros" id="cuatro"><strong>4</strong></button>
+                        <button class=" numeros" id="cinco"><strong>5</strong></button>
+                        <button class="numeros" id="seis"><strong>6</strong></button>
+                        <button class="numeros" id="menos">-</button>
+                    </div>
+                    <div class="col digitos">
+                        <button class="numeros" id="uno"><strong>1</strong></button>
+                        <button class=" numeros" id="dos"><strong>2</strong></button>
+                        <button class="numeros" id="tres"><strong>3</strong></button>
+                        <button class="numeros" id="sumaR">+</button>
+                    </div>
+
+                    <div class="col digitos">
+                        <button class="numeros" id="simmas">±</button>
+                        <button class=" numeros" id="cero"><strong>0</strong></button>
+                        <button class="numeros" id="punto">.</button>
+                        <button class="numeros" id="igual">=</button>
+
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="./assets/js/calculadora.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
